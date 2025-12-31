@@ -159,7 +159,7 @@ const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme, currentView, onNav
               onMouseLeave={() => {
                 timeoutRef.current = window.setTimeout(() => setIsMoreOpen(false), 150);
               }}
-              className="absolute top-full mt-4 w-[75vw] max-w-[700px] bg-white/95 dark:bg-black/90 backdrop-blur-2xl border border-slate-200 dark:border-white/10 rounded-[2.5rem] shadow-2xl p-6 overflow-hidden z-[110]"
+              className="absolute top-full mt-4 w-[75vw] max-w-[700px] bg-white/40 dark:bg-black/40 backdrop-blur-2xl border border-slate-200 dark:border-white/10 rounded-[2.5rem] shadow-2xl p-6 overflow-hidden z-[110]"
             >
               <div className="grid grid-cols-12 gap-5 items-center">
                 {/* Column 1: Guestbook Card */}
