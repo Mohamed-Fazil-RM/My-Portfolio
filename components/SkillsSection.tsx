@@ -50,10 +50,11 @@ const SkillsSection: React.FC<SkillsSectionProps> = ({ isDark }) => {
             <span className="text-[10px] font-bold uppercase tracking-[0.3em] text-slate-400 dark:text-zinc-500 mb-6 block">
               the skills
             </span>
-            <h2 className="text-2xl md:text-6xl font-medium tracking-tight text-slate-900 dark:text-white leading-[1.2] md:leading-[1.1] max-w-4xl mx-auto px-2">
-              Bridging the gap between code, data, and design <br className="hidden md:block" />
-              <span className="italic text-gradient bg-gradient-to-r from-blue-400 via-accent-violet to-pink-500">
-                to create holistic digital solutions.
+            <h2 className="text-3xl md:text-6xl lg:text-7xl font-medium tracking-tight text-slate-900 dark:text-white mb-8 md:mb-10 leading-[1.2] md:leading-[1.1]">
+              Technical Proficiency &
+               <br className="hidden md:block" />
+              <span className="text-gradient">
+                Strategic Execution
               </span>
             </h2>
           </motion.div>

@@ -27,7 +27,7 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <span className="inline-block px-4 py-1.5 mb-6 md:mb-8 text-[9px] md:text-[10px] font-bold tracking-[0.3em] text-accent-violet uppercase bg-violet-500/10 dark:bg-violet-900/20 rounded-full border border-accent-violet/10 backdrop-blur-sm">
-            Based in India • Open for Collaboration
+            Based in India • Open for Work
           </span>
           
           <h1 className="text-3xl md:text-6xl lg:text-7xl font-medium tracking-tight text-slate-900 dark:text-white mb-8 md:mb-10 leading-[1.2] md:leading-[1.1]">
